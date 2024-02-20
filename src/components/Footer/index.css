@@ -1,0 +1,56 @@
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding around the footer */
+}
+
+.footer p {
+  font-size: 14px; /* Smaller font size for the paragraph */
+}
+
+.footer a {
+  color: #ccc; /* Light gray text color for links */
+  text-decoration: none; /* Remove default underline */
+  margin-right: 10px; /* Right margin for spacing between links */
+}
+
+.footer a:hover {
+  color: #fff; /* White text color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer .social-icons {
+  margin-top: 10px; /* Top margin for spacing */
+}
+
+.footer .social-icons a {
+  font-size: 20px; /* Larger font size for social icons */
+  margin-right: 10px; /* Right margin for spacing between icons */
+}
+
+.footer .subscribe-form {
+  margin-top: 20px; /* Top margin for spacing */
+}
+
+.footer .subscribe-form input[type="email"],
+.footer .subscribe-form button {
+  padding: 10px 20px; /* Padding for input and button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.footer .subscribe-form input[type="email"] {
+  background-color: #444; /* Dark background color for input */
+  color: #fff; /* White text color for input */
+}
+
+.footer .subscribe-form button {
+  background-color: #3498db; /* Blue background color for button */
+  color: #fff; /* White text color for button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.footer .subscribe-form button:hover {
+  background-color: #2980b9; /* Darker blue background color on hover */
+}
